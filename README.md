@@ -1,29 +1,33 @@
-# Teammeting — klikbare demonstratie
+# Teammeting — Test1
 
-Een statische, Nederlandstalige demonstratie van Teammeting: een concept voor
-anonieme teamvragenlijsten en uitsluitend geaggregeerde teamrapportage.
+Een openbare testomgeving voor de Teammeting-app met één realistische casus:
+team **Test1**, bestaande uit 13 personen.
 
-## Bekijken
+## Testaccounts
 
-De GitHub Pages-site opent direct `index.html`. De demonstratie bevat:
+| Rol | Naam | Teamcode | Gebruikersnaam | Wachtwoord |
+| --- | --- | --- | --- | --- |
+| Teamleider | Jack Kruf | TEST1 | jakr | test1-jk |
+| Teamlid | Ludo Pompen | TEST1 | lupo | test1-jk |
 
-- een fictieve accountstart met inloggen en account aanmaken;
-- teamaanmaak waarbij de maker automatisch teamleider wordt;
-- beheer van teamleden met een afgeleide login en tijdelijk standaardwachtwoord;
-- een verplichte persoonlijke wachtwoordkeuze bij de eerste echte login;
-- beheer van vragen, stijl en standaardweergave;
-- een fictief teamdashboard;
-- 23 voorbeeldstellingen die lokaal in de browser kunnen worden doorlopen;
-- een presentatiemodus met uitsluitend fictieve cijfers;
-- automatische iPhone-/iPad-weergave plus handmatige keuze;
-- een toelichting op de beoogde privacygrenzen.
+De overige elf personen zijn fictieve testpersonen.
+
+## Beschikbare stromen
+
+- sober inlogscherm met rolgebonden toegang;
+- aanvraag van een activatiecode en inrichting van een nieuw team;
+- teaminstellingen, medewerkers en automatische loginnamen;
+- algemene teamlink en persoonlijke activatielinks om te kopiëren;
+- 23 vragen invullen, indienen en tijdens de open ronde wijzigen;
+- teamleiderbeheer voor vragen en teamleden;
+- presentatiebouwer met voorstellen, uitschieters of één vraag;
+- drie presentatiestijlen: Rustig, Energiek en Zakelijk;
+- responsieve weergave voor telefoon en tablet.
 
 ## Belangrijk
 
-Dit is demonstratiemateriaal, geen gevalideerd meetinstrument en geen
-productieomgeving. Er is geen database of server. Ingevulde antwoorden worden
-niet verzonden of opgeslagen. Ook de getoonde account-, team- en ledengegevens
-blijven uitsluitend in de browserdemo. Alle namen en rapportcijfers zijn fictief.
-
-De volledige technische MVP blijft buiten deze openbare demo totdat database-,
-security-, toegankelijkheids- en privacycontroles zijn afgerond.
+Dit is een openbare testomgeving zonder server of database. Invoer blijft alleen
+in de browser en er worden geen e-mails, WhatsApp-berichten of sms-berichten
+verzonden. De getoonde resultaten zijn testresultaten. De volledige technische
+app heeft nog database-, security-, toegankelijkheids- en privacycontroles nodig
+voordat echte personeelsgegevens mogen worden gebruikt.
