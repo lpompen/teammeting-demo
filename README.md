@@ -1,4 +1,3 @@
-Attempting to perform the InitializeDefaultDrives operation on the 'FileSystem' provider failed.
 # Teammeting — klikbare demonstratie
 
 Een statische, Nederlandstalige demonstratie van Teammeting: een concept voor
